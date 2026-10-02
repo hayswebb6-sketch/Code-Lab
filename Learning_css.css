@@ -2,7 +2,7 @@ a {
     color: white;
     text-decoration: none;
 }
-button {
+.download-btn {
     color: white;
     background-color: blue;
     display: block;
