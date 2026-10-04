@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: learning-project
+    name: code-lab
     runtime: python
     buildCommand: ''
     startCommand: python server.py

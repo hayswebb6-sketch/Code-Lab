@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='Learning_tk',
+    name='Code_lab',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
