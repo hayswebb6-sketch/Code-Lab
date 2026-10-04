@@ -1,0 +1,17 @@
+/*The a tag defines a hyperlink */
+/*The button tag defines a clickable button */
+/*Putting :hover on something means, when the user hovers over it with their mouse, the styles inside the :hover block will be applied */
+a {
+    color: white;
+    text-decoration: none;
+}
+button {
+    color: white;
+    background-color: blue;
+    display: block;
+    margin: 0 auto;
+}
+button:hover {
+    background-color: darkblue;
+}
+/*Comment like this in CSS(It's weird)*/

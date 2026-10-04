@@ -3,6 +3,6 @@ services:
     name: learning-project
     runtime: static
     buildCommand: ''
-    staticPublishPath: ./
+    staticPublishPath: ./Learning Code
     branch: main
     autoDeployTrigger: commit
