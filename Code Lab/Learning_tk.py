@@ -14,7 +14,7 @@ label.pack(pady=20)
 #The lambda function is used to pass the command to the button without executing it immediately
 #Fg means foreground color
 #Bg means background color
-button=tk.Button(root, text="Change Text", fg="green", bg="black", command=lambda: label.config(text="I changed!"))
+button=tk.Button(root, text="Button", fg="yellow", bg="black")
 button.pack(pady=10)
 
 #The mainloop() function starts the Tkinter event loop, which runs the GUI application
