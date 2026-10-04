@@ -1,8 +1,8 @@
 services:
   - type: web
     name: learning-project
-    runtime: static
+    runtime: python
     buildCommand: ''
-    staticPublishPath: ./Learning Code
+    startCommand: python server.py
     branch: main
     autoDeployTrigger: commit
