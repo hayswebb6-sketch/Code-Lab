@@ -1,1 +1,1 @@
-// Willouby Mckenzie do stuff in here
+javascript:(()=>{alert("ERROR")})();
