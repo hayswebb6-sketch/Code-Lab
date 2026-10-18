@@ -17,3 +17,7 @@ def serve(filename=None):
         return send_from_directory(FILES, name)
     except FileNotFoundError:
         abort(404)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
