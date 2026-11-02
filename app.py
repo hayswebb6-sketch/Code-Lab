@@ -1,5 +1,5 @@
 import os
-
+import { Analytics } from "@vercel/analytics/next"
 from flask import Flask, abort, send_from_directory
 
 BASE = os.path.dirname(os.path.abspath(__file__))
